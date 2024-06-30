@@ -1,0 +1,162 @@
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif ;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    /* overflow-x: hidden; */
+}
+
+                        /* -----------------------------------------------NAV------------------------------------------ */
+
+a{
+    text-decoration: none;
+    color: #555;
+}
+
+/* .header{
+    background: linear-gradient(to bottom,#afbdc0,#fff);
+} */
+
+.navbar{
+    display: flex;
+    height: 11vh;
+    width: 100%; 
+    padding: 1.5%;
+    position: relative;
+}
+.logo{
+    width: 15%;
+}
+
+.logo img{  
+    width: 100%;
+    height: 120%;
+}
+
+.options{
+    width: 60%;
+    list-style-type: none;
+    display:inline-block;
+    /* flex: 7 0 auto; */
+}   
+
+.option-n {
+    display: inline-block;
+    margin: 0.7% 0% 0% 5%;
+    font-size: 1.6vw;  
+    position:relative;
+}
+
+/* #first-option{
+    margin-left:-5%;
+} */
+/* .space{
+    margin-left: -3%;
+} */
+
+.search{
+    width: 30%;   
+}
+
+.search input{
+    width: 100%;
+    height: 100%; 
+    background-color: white;
+    color: black;
+    border-radius: 10px 10px 10px 10px;
+    /* position: relative; */
+    /* flex: 5 0 auto; */
+}
+::placeholder{
+    font-size: 1vw;
+}
+
+.icons{
+    width: 15%;
+    height: 100%;   
+    display: inline-flex;
+    justify-content: space-around;
+}
+/* 
+.search_btn{
+    left:49.8%;
+    height:5%;
+    width: 2%;
+    font-size: 165%;
+    position: relative;
+} */
+
+.carticon img{
+    /* height: 70%;
+    width: 20%;
+    margin-left: 350%;
+    margin-top: -3%;  */
+    height: 100%;
+    width: 100%; 
+    left:255%;
+
+    /* flex: 1 0 auto; */
+}   
+
+.spinicon img{
+    /* height: 75%;
+    width: 15%;
+    margin-left: 70%;
+    margin-top:-3%; */
+    height: 100%;
+    width: 100%; 
+    left:172%;
+    /* flex: 1 0 auto; */
+}
+
+.loginicon img{
+    height: 100%;
+    width: 100%; 
+    left: 90%;
+    border-radius: 50px;
+
+}
+                        
+
+.about-section{
+    background: url(../Media/Photos/AboutUs_photo.jpg) no-repeat left;
+    background-size: 100%;
+    background-color: #fdfdfd;
+    /* overflow: hidden; */
+    padding: 350px 0;
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+    margin-top: -20%;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.slogan{
+    font-weight: 700;
+    font-size: 13px;
+}

@@ -1,0 +1,168 @@
+    *{
+        margin: 0%;
+        padding: 0%;  
+        box-sizing: border-box; 
+        font-family: sans-serif;
+    }
+ 
+    ::placeholder{
+        font-size: 1.2vw;
+        color:#555;
+    }
+
+    .page{
+        height: 100%;
+        width: 100%;
+        position:absolute;
+        background-image:url("../Media/Backgrounds/bg3.jpg"); 
+        /* background: radial-gradient(#fff,#afbdc0); */
+        background-position: center;
+        background-size: cover;  
+        background-color: #afbdc0;
+    }
+
+    .form-box{
+        height: 80%;
+        width:27%;
+        /* background:linear-gradient(to right,  rgba(241, 95, 219, 0.15) , rgba(75, 169, 252, 0.15)); */
+        background: rgba(0, 0, 0, 0.1);
+        top:15%;
+        left:38%;
+        position:absolute;
+        display: grid;
+        overflow:hidden;
+    }
+
+    .button-box{
+        width:70%;
+        height:6%;
+        margin-top: 33%;
+        background-color:transparent;
+        justify-self: center;
+        border-radius: 50px;
+        box-shadow: 0 0 20px 9px #ff61241f;
+        position: absolute;
+        display: flex;
+        /* justify-content:space-between; */
+    }
+
+    .toggle-btn{
+        font-weight:bolder;
+        height: 120%;
+        border: none;
+        flex: 1 0 auto;
+        background-color: transparent;
+        border-radius: 50px; 
+        position: relative;
+        cursor: pointer;
+        outline: none;
+        font-size: 1vw;
+    }
+
+    .inputs{
+        position:absolute;
+        transition: 0.5S;  
+        margin:45% 0% 0% 5%;
+    }
+
+     .input{
+        border-top:none;
+        border-left:none;
+        border-right:none;
+        font-size: 100%;
+        padding: 3% 0%  ;
+        margin:5% 0%;
+        width: 80%;       
+        background-color:transparent;
+        outline: none;
+    } 
+
+    .checkbox{
+        margin: 5% 0% 5% 0%;    
+        font-size: 1vw;
+    }
+
+    .submit-btn{
+        /* background:linear-gradient(to right,  rgb(250,145,236) , rgb(93, 138, 175)); */
+        background:linear-gradient(to right,rgba(209, 104, 209, 0.8),rgba(71, 147, 209, 0.8));
+        width: 50%;
+        height: 12%;
+        position: absolute;
+        border-radius: 50px;
+        margin: 6% 0% 0% 15%;
+        font-weight:bold;
+        display: block;
+        border: black;
+        font-size: 1vw;
+    }
+
+    .submit-btn:hover{
+        background:linear-gradient(to right,rgba(209, 104, 209, 0.6),rgba(71, 147, 209, 0.6));
+        color: #555;
+    }
+
+     .logo img{
+        height:28%;
+        width: 60%;
+        margin-top: -4%;
+        position: absolute;
+        margin-left: 19%;
+        
+    } 
+
+    .name input{
+        width: 40%; 
+        
+    }
+
+    p{
+        margin: 25% 0% 0% 20%;
+        color: black; 
+        font-size: 1vw;
+       
+    }
+   
+    .inputs a{
+        font-size:90%;
+        margin-left: 10%;
+        outline: none;
+    }
+    #active{
+        justify-content: center;
+        position: absolute ;
+        width: 48%;
+        height: 110%;
+        background:linear-gradient(to right,rgba(209, 104, 209, 0.8),rgba(71, 147, 209, 0.8));
+        /* background: linear-gradient(to right,#5c6769,#ffffff);   */
+        border-radius: 30px;
+        /* flex: 1 0 auto; */
+        /* text-align: center;  */
+        /* rgb(238, 135, 224) */
+        border: none;  
+        transition: 0.2s; 
+        
+    }
+
+    .social img{
+        height: 8.5%;
+        width: 10%;
+        margin-left: 25%;
+        display: inline-block;
+        
+    }
+    .social-2 {      
+        margin-left:-33%;
+        height: 8.5%;
+        width: 10%;
+        display: inline-block;
+       }
+    
+    #login{
+        left:12%;
+    }
+
+    #register{
+        left:100%;
+    }
+
+    /* linear-gradient(to right,rgb(250,145,236) ,rgba(250,145,236,0.4) */          
